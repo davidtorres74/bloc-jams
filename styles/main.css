@@ -39,13 +39,13 @@ body {
     text-decoration: none;
 }
 
-.links-container .navbar-link {
+.links-container .navbar-link  {
     display: table-cell;
     position: relative;
     height: 100%;
     padding-left: 1rem;
     padding-right: 1rem;
-    
+  
     vertical-align: middle;
     color: white;
     font-size: 0.625rem;
@@ -55,6 +55,11 @@ body {
     
     text-decoration: none;
     cursor: pointer;
+}
+
+.navbar-link:hover {
+    color: rgb(233,50,117);
+    background-color: white;
 }
 
 .container {
