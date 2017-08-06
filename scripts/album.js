@@ -87,7 +87,7 @@ var playButtonTemplate = '<a class="album-song-button"><span class="ion-play"></
 var pauseButtonTemplate = '<a class="album-song-button"><span class="ion-pause"></span></a>';
 var currentlyPlayingSong = null;
  window.onload = function() {
-     setCurrentAlbum(albumMuse);
+     setCurrentAlbum(albumPicasso);
      var findParentByClassName = function(element, targetClass) {
     if (element) {
         var currentParent = element.parentElement;
